@@ -1,0 +1,94 @@
+/* body{
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+#name{
+    background-color: aquamarine; 
+    display: flex;
+    justify-content: center; 
+    font-size: 50px;
+    margin-top: 80px;
+}
+#container{
+    background-color: aqua;
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+    font-size: 30px;
+}
+#first{
+    background-color: chocolate;
+}
+#second{
+    background-color: burlywood;
+}
+#start{
+    background-color:rgb(174, 174, 237);
+    display: flex;
+}
+button{
+    background-color:blanchedalmond;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: antiquewhite ;
+    width: 100vw;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 2fr 2fr 2fr 1/2fr 1/2fr;
+    gap: 10px;
+}
+#name{
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.player{
+display: flex;
+justify-content: center;
+align-items: start;
+font-size: 30px;
+}
+.p{
+    background-color: aqua;
+    padding: 8px;
+    border-radius: 5px;
+}
+.ans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+#final{
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+button{
+    background-color: aqua;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+#win{
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
